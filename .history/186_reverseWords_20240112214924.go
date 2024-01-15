@@ -1,0 +1,19 @@
+func reverseWords(s []byte) {
+	reverse := func(s []byte) {
+		var (
+			left  = 0
+			right = len(s) - 1
+		)
+		for left < right {
+			s[left], s[right] = s[right], s[left]
+		}
+	}
+	reverse(s)
+	var (
+		lastIdx = 0
+		curIdx  = 0
+	)
+	for ; curIdx < len(s); curIdx++ {
+
+	}
+}
