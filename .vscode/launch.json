@@ -11,7 +11,8 @@
             "mode": "debug",
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
-                "-name", "78_subsets"
+                "-name",
+                "56_merge"
             ]
         }
     ],
