@@ -22,7 +22,7 @@ func main() {
 	if nil != err {
 		panic(err)
 	}
-	f, err := os.Create(path.Join(nw, `run.go`))
+	f, err := os.Create(path.Join(nw, fmt.Sprintf("%v.go", *name)))
 	if nil != err {
 		panic(err)
 	}
