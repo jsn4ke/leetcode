@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "189_rotate"
+                "238_productExceptSelf"
             ]
         }
     ],
