@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "238_productExceptSelf"
+                "128_longestConsecutive"
             ]
         }
     ],
