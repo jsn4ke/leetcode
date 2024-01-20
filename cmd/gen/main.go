@@ -17,7 +17,7 @@ func main() {
 	if nil != err {
 		panic(err)
 	}
-	nw := path.Join(dir, `../../`, *name)
+	nw := path.Join(dir, `../../internal`, *name)
 	err = os.Mkdir(nw, 0755)
 	if nil != err {
 		panic(err)
