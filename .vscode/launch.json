@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "128_longestConsecutive"
+                "2788_splitWordsBySeparator"
             ]
         }
     ],
