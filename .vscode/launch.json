@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "560_subarraySum"
+                "146_LRUCache"
             ]
         }
     ],
