@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "88_merge"
+                "438_findAnagrams"
             ]
         }
     ],
