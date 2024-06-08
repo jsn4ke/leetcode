@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "146_LRUCache"
+                "14_longestCommonPrefix"
             ]
         }
     ],
