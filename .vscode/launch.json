@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "14_longestCommonPrefix"
+                "438_findAnagrams"
             ]
         }
     ],
