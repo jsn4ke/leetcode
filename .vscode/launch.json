@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "200_numberOfIslands"
+                "5_longestPalindrome"
             ]
         }
     ],
