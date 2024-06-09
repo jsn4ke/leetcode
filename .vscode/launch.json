@@ -12,11 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-<<<<<<< HEAD
-                "100319_maxTotalReward"
-=======
-                "283_moveZeroes"
->>>>>>> ae9a6c9 (283_moveZeroes)
+                "11_maxArea"
             ]
         }
     ],
