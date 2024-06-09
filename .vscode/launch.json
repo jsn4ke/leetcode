@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "34_searchRange"
+                "64_minPathSum"
             ]
         }
     ],
