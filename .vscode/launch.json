@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "215_findKthLargest"
+                "152_maxProduct"
             ]
         }
     ],
