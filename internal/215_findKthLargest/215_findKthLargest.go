@@ -4,7 +4,6 @@ import "container/heap"
 
 var (
 	_ heap.Interface = (*small)(nil)
-	_ heap.Interface = (*big)(nil)
 )
 
 type small []int
