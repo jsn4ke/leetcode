@@ -16,6 +16,3 @@ func findDuplicate(nums []int) int {
 	}
 	return slow
 }
-
-func findDuplicate2(nums []int) int {
-}
