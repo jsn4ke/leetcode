@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "343_integerBreak"
+                "312_maxCoins"
             ]
         }
     ],
