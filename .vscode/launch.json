@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "64_minPathSum"
+                "215_findKthLargest"
             ]
         }
     ],
