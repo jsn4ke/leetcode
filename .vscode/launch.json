@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "240_searchMatrix"
+                "108_sortedArrayToBST"
             ]
         }
     ],
