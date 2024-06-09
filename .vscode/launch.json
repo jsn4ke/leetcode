@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "11_maxArea"
+                "17_letterCombinations"
             ]
         }
     ],
