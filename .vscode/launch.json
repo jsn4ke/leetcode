@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "287_findDuplicate"
+                "341_NestedIterator"
             ]
         }
     ],
