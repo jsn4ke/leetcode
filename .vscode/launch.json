@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "341_NestedIterator"
+                "276_numWays"
             ]
         }
     ],
