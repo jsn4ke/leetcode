@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "312_maxCoins"
+                "100319_maxTotalReward"
             ]
         }
     ],
