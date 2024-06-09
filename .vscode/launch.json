@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "276_numWays"
+                "311_multiply"
             ]
         }
     ],
