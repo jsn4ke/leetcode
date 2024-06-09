@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "17_letterCombinations"
+                "287_findDuplicate"
             ]
         }
     ],
