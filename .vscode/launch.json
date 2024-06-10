@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "234_isPalindrome"
+                "142_detectCycle"
             ]
         }
     ],
