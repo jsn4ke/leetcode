@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "21_mergeTwoLists"
+                "234_isPalindrome"
             ]
         }
     ],
