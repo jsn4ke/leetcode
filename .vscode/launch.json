@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "19_removeNthFromEnd"
+                "136_singleNumber"
             ]
         }
     ],
