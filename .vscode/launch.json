@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "118_generate"
+                "543_diameterOfBinaryTree"
             ]
         }
     ],
