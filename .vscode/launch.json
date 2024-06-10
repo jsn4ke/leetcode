@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "15_threeSum"
+                "118_generate"
             ]
         }
     ],
