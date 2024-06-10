@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "226_invertTree"
+                "21_mergeTwoLists"
             ]
         }
     ],
