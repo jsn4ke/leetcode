@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "45_jump"
+                "121_maxProfit"
             ]
         }
     ],
