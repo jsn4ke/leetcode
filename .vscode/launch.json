@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "74_searchMatrix"
+                "226_invertTree"
             ]
         }
     ],
