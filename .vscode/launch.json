@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "881_numRescueBoats"
+                "15_threeSum"
             ]
         }
     ],
