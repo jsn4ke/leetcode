@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "763_partitionLabels"
+                "31_nextPermutation"
             ]
         }
     ],
