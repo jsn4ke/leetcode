@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "136_singleNumber"
+                "74_searchMatrix"
             ]
         }
     ],
