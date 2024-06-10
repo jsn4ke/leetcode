@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "152_maxProduct"
+                "881_numRescueBoats"
             ]
         }
     ],
