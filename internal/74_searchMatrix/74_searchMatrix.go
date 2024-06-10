@@ -10,6 +10,7 @@ func searchMatrix(matrix [][]int, target int) bool {
 		x, y := i/n, i%n
 		return matrix[x][y] >= target
 	})
+
 	if idx == m*n || matrix[idx/n][idx%n] != target {
 		return false
 	}
