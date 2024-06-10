@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "22_generateParenthesis"
+                "198_rob"
             ]
         }
     ],
