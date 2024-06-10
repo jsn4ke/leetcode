@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "142_detectCycle"
+                "22_generateParenthesis"
             ]
         }
     ],
