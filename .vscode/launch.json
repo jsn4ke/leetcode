@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "121_maxProfit"
+                "763_partitionLabels"
             ]
         }
     ],
