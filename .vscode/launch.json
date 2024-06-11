@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "131_partition"
+                "230_kthSmallest"
             ]
         }
     ],
