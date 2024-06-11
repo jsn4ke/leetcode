@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "104_maxDepth"
+                "739_dailyTemperatures"
             ]
         }
     ],
