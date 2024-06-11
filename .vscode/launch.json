@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "230_kthSmallest"
+                "169_majorityElement"
             ]
         }
     ],
