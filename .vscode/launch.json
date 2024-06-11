@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "75_sortColors"
+                "104_maxDepth"
             ]
         }
     ],
