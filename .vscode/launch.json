@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "169_majorityElement"
+                "75_sortColors"
             ]
         }
     ],
