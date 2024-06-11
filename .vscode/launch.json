@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "419_countBattleships"
+                "131_partition"
             ]
         }
     ],
