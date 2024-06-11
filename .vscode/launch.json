@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "279_numSquares"
+                "236_lowestCommonAncestor"
             ]
         }
     ],
