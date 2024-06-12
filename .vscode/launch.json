@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "24_swapPairs"
+                "416_canPartition"
             ]
         }
     ],
