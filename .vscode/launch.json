@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "1143_longestCommonSubsequence"
+                "24_swapPairs"
             ]
         }
     ],
