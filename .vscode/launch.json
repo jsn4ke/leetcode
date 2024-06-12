@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "208_Trie"
+                "2806_accountBalanceAfterPurchase"
             ]
         }
     ],
