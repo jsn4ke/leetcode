@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "416_canPartition"
+                "322_coinChange"
             ]
         }
     ],
