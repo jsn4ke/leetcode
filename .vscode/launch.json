@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "102_levelOrder"
+                "39_combinationSum"
             ]
         }
     ],
