@@ -1,6 +1,6 @@
 package leetcode_131_partition
 
-func partition(s string) [][]string {
+func partition2(s string) [][]string {
 	var (
 		n  = len(s)
 		dp = make([][]int8, n)
@@ -42,5 +42,35 @@ func partition(s string) [][]string {
 		}
 	}
 	dfs(0)
+	return ans
+}
+
+func partition(s string) [][]string {
+	var (
+		n   = len(s)
+		ans [][]string
+	)
+	var is func(left, right int) bool
+	is = func(left, right int) bool {
+		for left <= right && s[left] == s[right] {
+			left++
+			right--
+		}
+		return left > right
+	}
+	var dfs func(int, []string)
+	dfs = func(idx int, in []string) {
+		if idx >= n {
+			ans = append(ans, in)
+			return
+		}
+		for i := idx; i < n; i++ {
+			if !is(idx, i) {
+				continue
+			}
+			dfs(i+1, append(append([]string{}, in...), s[idx:i+1]))
+		}
+	}
+	dfs(0, nil)
 	return ans
 }
