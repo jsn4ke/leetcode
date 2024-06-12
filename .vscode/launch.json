@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "73_setZeroes"
+                "102_levelOrder"
             ]
         }
     ],
