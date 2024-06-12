@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "141_hasCycle"
+                "153_findMin"
             ]
         }
     ],
