@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "153_findMin"
+                "437_pathSum"
             ]
         }
     ],
