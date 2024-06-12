@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "322_coinChange"
+                "141_hasCycle"
             ]
         }
     ],
