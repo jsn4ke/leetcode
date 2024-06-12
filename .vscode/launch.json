@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "39_combinationSum"
+                "105_buildTree"
             ]
         }
     ],
