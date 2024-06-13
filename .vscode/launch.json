@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "23_mergeKLists"
+                "300_lengthOfLIS"
             ]
         }
     ],
