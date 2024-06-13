@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "2813_findMaximumElegance"
+                "23_mergeKLists"
             ]
         }
     ],
