@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "32_longestValidParentheses"
+                "42_trap"
             ]
         }
     ],
