@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "51_solveNQueens"
+                "53_maxSubArray"
             ]
         }
     ],
