@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "437_pathSum"
+                "2813_findMaximumElegance"
             ]
         }
     ],
