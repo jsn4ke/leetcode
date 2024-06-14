@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "70_climbStairs"
+                "155_MinStack"
             ]
         }
     ],
