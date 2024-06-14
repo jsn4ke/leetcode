@@ -34,5 +34,4 @@ func flatten(root *TreeNode) {
 		return node
 	}
 	dfs(root)
-
 }

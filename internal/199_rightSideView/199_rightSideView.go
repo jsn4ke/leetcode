@@ -6,7 +6,7 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-func rightSideView(root *TreeNode) []int {
+func rightSideView2(root *TreeNode) []int {
 	if nil == root {
 		return nil
 	}
@@ -43,4 +43,28 @@ func rightSideView(root *TreeNode) []int {
 		heap = heap[1:]
 	}
 	return ret
+}
+func rightSideView(root *TreeNode) []int {
+	if nil == root {
+		return nil
+	}
+	var (
+		stack []*TreeNode
+		ans   []int
+	)
+	stack = append(stack, root)
+	for 0 != len(stack) {
+		var tmp []*TreeNode
+		for _, v := range stack {
+			if nil != v.Left {
+				tmp = append(tmp, v.Left)
+			}
+			if nil != v.Right {
+				tmp = append(tmp, v.Right)
+			}
+		}
+		ans = append(ans, stack[len(stack)-1].Val)
+		stack = tmp
+	}
+	return ans
 }
