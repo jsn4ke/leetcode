@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "155_MinStack"
+                "114_flatten"
             ]
         }
     ],
