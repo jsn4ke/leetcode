@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "138_copyRandomList"
+                "2779_maximumBeauty"
             ]
         }
     ],
