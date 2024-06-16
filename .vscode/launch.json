@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "521_findLUSlength"
+                "100317_countOfPeaks"
             ]
         }
     ],
