@@ -5,7 +5,7 @@ import (
 	"sort"
 )
 
-func subsets(nums []int) [][]int {
+func subsets1(nums []int) [][]int {
 	sort.Ints(nums)
 	var (
 		traverse func(idx int, takes ...int)
@@ -22,4 +22,26 @@ func subsets(nums []int) [][]int {
 	}
 	traverse(0)
 	return ret
+}
+
+func subsets(nums []int) [][]int {
+	var (
+		n   = len(nums)
+		ans [][]int
+		dfs func(idx int, res ...int)
+	)
+	dfs = func(idx int, res ...int) {
+		ans = append(ans, res)
+		for i := idx + 1; i < n; i++ {
+			var tmp []int
+			tmp = append(tmp, res...)
+			tmp = append(tmp, nums[i])
+			dfs(i, tmp...)
+		}
+	}
+	ans = append(ans, nil)
+	for i := 0; i < n; i++ {
+		dfs(i, nums[i])
+	}
+	return ans
 }

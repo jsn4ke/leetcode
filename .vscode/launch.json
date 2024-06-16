@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "100317_countOfPeaks"
+                "25_reverseKGroup"
             ]
         }
     ],
