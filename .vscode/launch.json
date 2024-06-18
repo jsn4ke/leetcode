@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "340_lengthOfLongestSubstringKDistinct"
+                "1150_isMajorityElement"
             ]
         }
     ],
