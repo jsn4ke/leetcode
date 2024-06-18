@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "1086_highFive"
+                "340_lengthOfLongestSubstringKDistinct"
             ]
         }
     ],
