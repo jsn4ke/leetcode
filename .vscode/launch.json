@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "25_reverseKGroup"
+                "2288_discountPrices"
             ]
         }
     ],
