@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "487_findMaxConsecutiveOnes"
+                "1086_highFive"
             ]
         }
     ],
