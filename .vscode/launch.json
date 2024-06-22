@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "1533_getIndex"
+                "272_closestKValues"
             ]
         }
     ],
