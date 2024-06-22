@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "272_closestKValues"
+                "1056_confusingNumber"
             ]
         }
     ],
