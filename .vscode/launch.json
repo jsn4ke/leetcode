@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "1150_isMajorityElement"
+                "1134_isArmstrong"
             ]
         }
     ],
