@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "323_countComponents"
+                "151_reverseWords"
             ]
         }
     ],
