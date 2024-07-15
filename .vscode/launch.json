@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/cmd/gen",
             "args": [
                 "-name",
-                "_top_interview_150/88_merge"
+                "_top_interview_150/52_totalNQueens"
             ]
         }
     ],
