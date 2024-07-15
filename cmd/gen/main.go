@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 	"path"
+	"strings"
 )
 
 var (
@@ -18,14 +19,15 @@ func main() {
 		panic(err)
 	}
 	nw := path.Join(dir, `../../internal`, *name)
-	err = os.Mkdir(nw, 0755)
+	err = os.MkdirAll(nw, 0755)
 	if nil != err {
 		panic(err)
 	}
-	f, err := os.Create(path.Join(nw, fmt.Sprintf("%v.go", *name)))
+	arr := strings.Split(*name, "/")
+	f, err := os.Create(path.Join(nw, fmt.Sprintf("%v.go", arr[len(arr)-1])))
 	if nil != err {
 		panic(err)
 	}
-	f.WriteString(fmt.Sprintf("package leetcode_%v\n", *name))
+	f.WriteString(fmt.Sprintf("package leetcode_%v\n", strings.Join(arr, "_")))
 	f.Close()
 }
